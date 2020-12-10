@@ -8,28 +8,111 @@
 </head>
 <body>
 
+    <style>
+
+        table, th, td {
+        border: 1px solid black;
+        }
+
+        .titulo{
+            color: cyan;
+            text-align: center;   
+        }
+
+        .parrafo-principal__link--eltiempo{
+            font-style: italic; 
+        }
+
+        .cita{
+            font-style: italic;
+        }
+
+        h2, h3{
+          color: rgb(255, 0, 0);  
+        }
+
+        a{
+
+        }
+
+        .tituloSeccionCalzado{
+            color: #337848;
+        }
+
+
+    </style>
+
     <header>
-        <h1> Tienda de Zapatos </h1>
+        <h1 class="titulo"> Mi Tienda de <span>Zapatos</span> </h1>
     </header>
 
     <main>
 
-        <p> Lorem <a href="https://www.eltiempo.com/" target="_blank" > ipsum</a>  dolor sit amet consectetur adipisicing elit. Voluptate animi obcaecati nihil, ipsum expedita ratione aspernatur pariatur. Voluptatibus, quisquam adipisci, ipsum in, est doloribus inventore expedita iste debitis dolore quibusdam. </p>
+        <p>El porqué de las zapatillas</p>
+        <blockquote cite="https://es.wikipedia.org/wiki/Zapatilla" class = "cita">La palabra zapatilla
+        puede referirse al calzado cómodo o de abrigo para estar en casa
+        </blockquote>
 
-        <h2> Seccion de calzado </h2>
+        <p class="parrafo-principal"> Lorem <a href="https://www.eltiempo.com/" target="_blank" class="parrafo-principal__link--eltiempo"> ipsumasd123</a>  dolor sit amet consectetur adipisicing elit. Voluptate animi obcaecati <a href="//google.com" class="parrafo-principal__link--google" >nihil</a>, ipsum expedita ratione aspernatur pariatur. Voluptatibus, quisquam adipisci, ipsum in, est doloribus inventore expedita iste debitis dolore quibusdam. </p>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptates, amet eaque expedita cum enim voluptate, in repellat aperiam dolore earum voluptatem, temporibus soluta quis nostrum ullam consequuntur impedit ad? </p>
+        <h2 class="tituloSeccionCalzado"> Seccion de calzado </h2>
+
+        <div>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptates, amet eaque expedita cum enim voluptate, in repellat aperiam dolore earum voluptatem, temporibus soluta quis nostrum ullam consequuntur impedit ad? </p>
+
+        </div>
+
+        <h2 class="titulo"> Menu Principal </h2>
+
+        <ul>
+            <li> Video </li>
+            <li> <a href="#Contacto"> Contacto </a> </li>
+            <li> <a href="#Fundador"> Fundador </a> </li>
+            <li>  <a href="#Formulario"> Formulario </a> </li>
+        </ul>
 
         <br>
 
-        <iframe width="360" height="315"
+
+        <iframe width="560" height="315"
         src="https://www.youtube.com/embed/Wm-p9mcN8Yk" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media;
         gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <br>
+        <h2 id="Contacto"> Contacto </h2>
 
-        <img src="images/pfp.jpeg" alt="Mi foto" width="360" height="315" >
+        <table>
+
+            <tr>
+                <th> Areas de la tienda </th>
+                <th> Responsable </th>
+                <th> Telefono </th>
+            </tr>
+
+            <tr>
+                <td> Calzado hombre </td>
+                <td> <a href="#Fundador"> Julian Ochoa </a>  </td>
+                <td> 300 000 000</td>
+            </tr>
+
+            <tr>
+                <td> Calzado mujer </td>
+                <td> Daniela </td>
+                <td> 299 999 999 </td>
+            </tr>
+
+        </table>
+
+        <h2> Fundador </h2>
+
+        <img src="images/pfp.jpeg" alt="propietaria nombre 1" height="360" width="350" id = "Fundador">
+
+        <h3 id="Formulario"> Formulario </h3>
+
+        <form>
+            <label for="nombreCompleto"> Nombre completo </label>
+            <input type="text" id="nombreC" name="nombreC" placeholder="Ingrese su nombre y apellido" required><br><br>
+        </form>
 
     </main>
     
