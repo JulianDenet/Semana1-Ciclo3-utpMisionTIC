@@ -1,0 +1,78 @@
+
+.elemento{
+    background-color: green;
+    height: 50px;
+    width: 34px;
+    text-align: center;
+    padding: 5px;
+    border: 1px black solid;
+    line-height: 50px;
+}
+
+.contenedor
+{
+    border: 10px blue solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: center;
+}
+
+
+
+@media (min-width: 576px) { 
+    .elemento{
+        background-color: yellow;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        padding: 5px;
+        border: 1px black solid;
+        line-height: 50px;
+    }
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .elemento{
+        background-color: orange;
+        height: 50px;
+        width: 70px;
+        text-align: center;
+        padding: 5px;
+        border: 1px black solid;
+        line-height: 50px;
+    }
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .elemento{
+        background-color: red;
+        height: 50px;
+        width: 100px;
+        text-align: center;
+        padding: 5px;
+        border: 1px black solid;
+        line-height: 50px;
+    }
+ }
+
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .elemento{
+        background-color: orange;
+        height: 50px;
+        width: 34px;
+        text-align: center;
+        padding: 5px;
+        border: 1px black solid;
+        line-height: 50px;
+    }
+ }

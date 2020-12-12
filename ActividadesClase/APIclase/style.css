@@ -1,0 +1,33 @@
+h1{
+    margin: 50px;
+    text-align: center;
+}
+
+.contenedor{
+    margin: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.imgRespuesta{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 360px;
+    width: 200px;
+}
+.titloRespuesta, .anhoRespuesta{
+    margin: 25px;
+    text-align: center;
+}
+
+.parrafoRespuesta{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-style: italic;
+}
+
+.contenedorRespuesta{
+    display: none;
+}

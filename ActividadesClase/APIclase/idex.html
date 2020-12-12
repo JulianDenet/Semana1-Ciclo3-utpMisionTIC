@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Peliculas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <h1> Busqueda de peliculas </h1>
+
+    <div class="contenedor">
+
+        <div class="input-group mb-3">
+            <input id="textoBuscar" type="text" class="form-control" placeholder="Nombre de la pelicula" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button id="botonBuscar" class="btn btn-outline-secondary" type="button" >Buscar</button>
+        </div>
+
+
+    </div>
+
+    <div id="contenedorRespuesta" class="contenedorRespuesta">
+
+        <img id="imgRespuesta" class="imgRespuesta" src="imagenBase.jfif" alt="imagenBase">
+        <h2 id="titloRespuesta" class="titloRespuesta">TituloBase</h2>
+        <h3 id="anhoRespuesta" class="anhoRespuesta">Anho</h3>
+        <p id="parrafoRespuesta" class="parrafoRespuesta"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et esse suscipit blanditiis, ipsum similique eligendi illo quos adipisci vitae voluptas aperiam iusto autem eveniet, neque consequuntur dolore voluptate aspernatur at! </p>
+
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
